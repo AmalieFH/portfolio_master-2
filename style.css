@@ -56,9 +56,9 @@ p {
  .menu {
     display: flex;
     list-style: none;
-    margin: 0px;
-    padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 85%;
+    margin-top: -5%;
  }
 
 .menu a {
@@ -115,4 +115,29 @@ nav ul {
     color: transparent;
     font-size: 5em;
     */
+
+/*Footer*/
+footer {
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin-top: 10vw;
+    justify-content: center;
+}
+    
+footer p {
+    padding-top: 8px;
+    color:#4E4035;
+    justify-content: center;
+}
+
+.wrapper img {
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+    float: center;
+    display:inline;
+    list-style: none;
+    flex-direction: row;
+}
 

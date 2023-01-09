@@ -1,5 +1,4 @@
-
-  .grid_2-1{
+  .grid_8{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;

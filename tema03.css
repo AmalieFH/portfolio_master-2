@@ -1,5 +1,5 @@
 /*Grid til GRUNDLÆGGENDE UX*/
-.grid_1-1-1-1-1-1{
+.grid_5{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;

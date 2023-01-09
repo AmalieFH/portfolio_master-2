@@ -1,5 +1,5 @@
 /*Grid til GRUNDLÆGGENDE INDHOLD*/
-.grid_1-1-1-1 {
+.grid_7 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
@@ -26,6 +26,11 @@
     grid-row: 2;
 }
 
+.col_piovideo{
+    grid-column: 2;
+    grid-row: 3;
+}
+
 .col_pilotvideo {
     display: grid;
     width: 100%;
@@ -36,6 +41,18 @@
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
+.col_piovideo {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/svg/SVG/SVG/pio.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
 
 .col_redesign {
     display: grid;
@@ -94,6 +111,12 @@
     padding: 1%;
 }
 
+.col_piovideo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
 
 .box_5{
     width: 300px;
@@ -102,6 +125,6 @@
     background-color: #FFD881;
     padding: 20px;
     text-align: left;
-    margin-top: -147%;
+    margin-top: -190%;
     margin-left: 10%;
   }

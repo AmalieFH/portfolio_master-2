@@ -102,9 +102,10 @@
 
 
 /*Grid til Mine projekter*/
-.grid_1-1-1{
+.grid_1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     margin: 10%;
 }
+

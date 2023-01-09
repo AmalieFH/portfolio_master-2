@@ -7,7 +7,7 @@
     padding-left: 760px;
 }
 
-.grid_1-1{
+.grid_2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
@@ -39,6 +39,7 @@
 .box{
     width: 300px;
     border: 1px solid black;
+    background-color: #FFD881;
     border-radius: 30px;
     padding: 20px;
     text-align: left;
