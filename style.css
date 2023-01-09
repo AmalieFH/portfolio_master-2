@@ -27,6 +27,14 @@ h1 {
     color: #4E4035;
 }
 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 26;
+    text-align: center;
+    color: #4E4035;
+}
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -95,15 +103,6 @@ nav ul {
     background-attachment: fixed;
 }
 
-.col_txt {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 2;
-    flex-basis: 100px;
-    padding: 5vw;
-    width: 360px;
-
-}
 
 /**??????
 .portfoliowrapper a {
@@ -119,10 +118,7 @@ nav ul {
 /*Footer*/
 footer {
     text-align: center;
-    height: auto;
-    width: auto;
     margin-top: 10vw;
-    justify-content: center;
 }
     
 footer p {
