@@ -1,0 +1,110 @@
+/*tema 01 - INTRO + beveægelse*/
+.col_tema01 {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-image: url(SVG/tema01.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.col_tema01:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 2%;
+}
+
+
+/*tema 02 - GRUNDLÆGGENDE WEB + bevægelse*/
+.col_tema02 {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/tema02.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.col_tema02:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 2%;
+}
+
+
+/*tema 03 - GRUNDLÆGGENDE UX + bevægelse*/
+.col_tema03 {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/tema03.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.col_tema03:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 2%;
+}
+
+/*tema 04 - GRUNDLÆGGENDE ANIMATION + bevægelse*/
+.col_tema04 {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/tema04.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.col_tema04:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 2%;
+}
+
+
+/*tema 05 - GRUNDLÆGGENDE INDHOLD + bevægelse*/
+.col_tema05 {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/tema05.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.col_tema05:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 2%;
+}
+
+
+/*tema 06 - EKSAMEN + bevægelse*/
+.col_tema06 {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/tema06.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.col_tema06:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 2%;
+  }
+
+
+/*Grid til Mine projekter*/
+.grid_1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10%;
+}

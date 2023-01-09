@@ -1,0 +1,118 @@
+/*generel css*/
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #EDD5CD;
+}
+
+section {
+    max-width: 1200px;
+    height: auto;
+    padding: 10px ;
+}
+
+.homepage {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(billeder/baggrundpic.jpeg);
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 36;
+    text-align: center;
+    color: #4E4035;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*container laves mindre/større og tilpasses den valgte størrelse*/
+#knap_container {
+    position: absolute;
+    top: 60%;
+    left: 23%;
+    height: 2%;
+    width: 15%;
+}
+
+
+/*logo design og størrelse*/  
+.logo {
+    width: 400px;
+  
+}
+
+.logo_img {
+    width: 60%;  
+    height: auto;
+    justify-content: left;
+ }
+
+ .menu {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+.menu a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #4E4035;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.om_mig{
+    display: flex;
+    justify-content: right;
+
+}
+
+header {
+    margin: 0px;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+  }
+
+.om_mig_splash {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(billeder/mig1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.col_txt {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-basis: 100px;
+    padding: 5vw;
+    width: 360px;
+
+}
+
+/**??????
+.portfoliowrapper a {
+    display: block;
+    width: 350px;
+    line-height: 500px;
+    text-align: center;
+    text-decoration: none;
+    color: transparent;
+    font-size: 5em;
+    */
+

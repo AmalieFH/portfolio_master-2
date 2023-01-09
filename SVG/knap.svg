@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffd881;
+        stroke: #534741;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #4e4035;
+        font-family: Georgia-BoldItalic, Georgia;
+        font-size: 5.5px;
+        font-style: italic;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m41.93,9.79l4.7,8.16c2.42,4.21,2.41,9.4-.03,13.6l-4.73,8.14c-2.44,4.19-6.92,6.77-11.77,6.76l-9.47-.02c-4.85-.01-9.33-2.61-11.74-6.81l-4.7-8.16c-2.42-4.21-2.41-9.4.03-13.6l4.73-8.14c2.44-4.19,6.92-6.77,11.77-6.76l9.47.02c4.85.01,9.33,2.61,11.74,6.81Z"/>
+  <text class="cls-2" transform="translate(2.93 27.33) scale(1.03 1)"><tspan x="0" y="0">Mine projekter</tspan></text>
+</svg>

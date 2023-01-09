@@ -1,0 +1,47 @@
+/*Grid til INTRO*/  
+.grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10%;
+   }
+
+   .col_introvideo{
+    grid-column: 2;
+    grid-row: 1;
+   }
+
+   .col_tema01:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+      padding: 2%;
+  }
+
+
+.col_introvideo {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-image: url(SVG/SVG/introvideo.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/*Bevægelse*/
+
+.col_introvideo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.box_1{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #FFD881;
+    padding: 10px;
+    text-align: left;
+    margin-top: -21%;
+    margin-left: 10%;
+  }

@@ -1,0 +1,107 @@
+/*Grid til GRUNDLÆGGENDE INDHOLD*/
+.grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 10%;
+ }
+
+.col_pilotsite {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.col_redesign{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.col_pilotvideo{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.col_procesdokument{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.col_pilotvideo {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/svg/pilotvideo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.col_redesign {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/svg/SVG/redesign.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.col_pilotsite {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/svg/pilotsite.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.col_procesdokument {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/svg/SVG/procesdokumentation.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/*Bevægelse*/
+.col_pilotvideo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+.col_redesign:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_pilotsite:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_procesdokument:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+
+.box_5{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #FFD881;
+    padding: 20px;
+    text-align: left;
+    margin-top: -147%;
+    margin-left: 10%;
+  }

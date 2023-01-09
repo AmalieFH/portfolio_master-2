@@ -1,0 +1,85 @@
+/*Grid til GRUNDLÆGGENDE ANIMATION*/
+.grid_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 10%;
+ }
+ 
+
+ .col_linktilsite {
+    grid-column: 3;
+    grid-row: 1;
+ }
+
+ .col_spil{
+    grid-column: 2;
+    grid-row: 1;
+ }
+
+ .col_aktivitetsdiagram{
+    grid-column: 2;
+    grid-row: 2;
+ }
+
+
+.col_linktilsite {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/SVG/linktilsite.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.col_aktivitetsdiagram {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/SVG/aktivitetsdiagram.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.col_spil {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/SVG/spil.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/*Bevægelse*/
+.col_linktilsite:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_aktivitetsdiagram:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_spil:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.box_4{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #FFD881;
+    padding: 20px;
+    text-align: left;
+    margin-top: -147%;
+    margin-left: 10%;
+  }
+

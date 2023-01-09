@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 410">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d97b7a;
+      }
+
+      .cls-2 {
+        font-family: Georgia-Bold, Georgia;
+        font-size: 80px;
+      }
+
+      .cls-2, .cls-3 {
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-family: Georgia-BoldItalic, Georgia;
+        font-size: 60px;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="m50.44.5h559.12c27.56,0,49.94,22.38,49.94,49.94v309.12c0,27.56-22.38,49.94-49.94,49.94H50.44c-27.56,0-49.94-22.38-49.94-49.94V50.44C.5,22.88,22.88.5,50.44.5Z"/>
+    <path d="m609.56,1c27.26,0,49.44,22.18,49.44,49.44v309.12c0,27.26-22.18,49.44-49.44,49.44H50.44c-27.26,0-49.44-22.18-49.44-49.44V50.44C1,23.18,23.18,1,50.44,1h559.12m0-1H50.44C22.58,0,0,22.58,0,50.44v309.12c0,27.86,22.58,50.44,50.44,50.44h559.12c27.86,0,50.44-22.58,50.44-50.44V50.44c0-27.86-22.58-50.44-50.44-50.44h0Z"/>
+  </g>
+  <text class="cls-2" transform="translate(144.92 185.03)"><tspan x="0" y="0">Tema 05</tspan></text>
+  <text class="cls-3" transform="translate(95.15 275.83)"><tspan x="0" y="0">Grund. indhold</tspan></text>
+</svg>

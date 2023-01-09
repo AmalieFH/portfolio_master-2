@@ -1,0 +1,47 @@
+/*Tekst i Om mig*/
+.txtlineleft {
+    text-align: left;
+}
+
+.txtfix {
+    padding-left: 760px;
+}
+
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 10%;
+}
+
+.col_cv{
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-image: url(SVG/SVG/SVG/mitcv.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/*Bevægelse*/
+.col_cv:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_cv{
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: -20%;
+}
+
+.box{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    margin-top: -21%;
+    margin-left: 7%;
+  }

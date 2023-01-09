@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 667 410">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-family: Georgia-Bold, Georgia;
+      }
+
+      .cls-2 {
+        font-size: 80px;
+      }
+
+      .cls-3 {
+        fill: #d97b7a;
+      }
+
+      .cls-4 {
+        font-size: 60px;
+      }
+
+      .cls-5 {
+        font-family: Georgia-BoldItalic, Georgia;
+        font-style: italic;
+      }
+
+      .cls-6 {
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x="4" y=".5" width="659" height="409" rx="49.94" ry="49.94"/>
+    <path d="m613.06,1c27.26,0,49.44,22.18,49.44,49.44v309.12c0,27.26-22.18,49.44-49.44,49.44H53.94c-27.26,0-49.44-22.18-49.44-49.44V50.44C4.5,23.18,26.68,1,53.94,1h559.12m0-1H53.94C26.08,0,3.5,22.58,3.5,50.44v309.12c0,27.86,22.58,50.44,50.44,50.44h559.12c27.86,0,50.44-22.58,50.44-50.44V50.44c0-27.86-22.58-50.44-50.44-50.44h0Z"/>
+  </g>
+  <text class="cls-6" transform="translate(134.24 204.82)"><tspan class="cls-2"><tspan x="0" y="0" xml:space="preserve"> Tema 02</tspan></tspan><tspan class="cls-4"><tspan class="cls-5" x="0" y="72" xml:space="preserve"> Grund. web</tspan><tspan class="cls-1" x="381.24" y="72"> </tspan></tspan></text>
+</svg>

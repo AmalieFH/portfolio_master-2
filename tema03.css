@@ -1,0 +1,149 @@
+/*Grid til GRUNDLÆGGENDE UX*/
+.grid_1-1-1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 5%;
+ }
+
+ .col_koncept1 {
+    grid-column: 2;
+    grid-row: 1;
+ }
+
+.col_research_datasamling {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.col_ideudvikling{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.col_test {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.col_losning{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.col_pitch{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+.col_koncept1 {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/SVG/koncept1.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.col_research_datasamling {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/SVG/research_datasamling.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.col_ideudvikling {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/SVG/ideudvikling.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.col_losning {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/SVG/losning.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.col_test {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/SVG/test.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.col_pitch {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-image: url(SVG/SVG/pitch.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/*Bevægelse*/
+.col_koncept1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_research_datasamling:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_ideudvikling:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_losning:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_test:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.col_pitch:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding: 1%;
+}
+
+.box_3{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #FFD881;
+    padding: 20px;
+    text-align: left;
+    margin-top: -38%;
+    margin-left: 7%;
+  }
+
