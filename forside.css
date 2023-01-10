@@ -6,6 +6,8 @@
  }
  */
 
+
+
  /*Der bliver sat bevægelse på container*/
 .pulse_kf {
    animation-name: pulse_kf;
@@ -25,4 +27,34 @@
    100% {
        transform: scale(1, 1);
    }
+}
+
+container laves mindre/større og tilpasses den valgte størrelse
+#knap_container {
+    position: absolute;
+    top: 60%;
+    left: 23%;
+    height: 2%;
+    width: 10%;
+}
+
+@media (min-width:600px) {
+
+/*container laves mindre/større og tilpasses den valgte størrelse*/
+#knap_container {
+    position: relative;
+    margin-top: 28%;
+    left: 23%;
+    height: 2%;
+    width: 15%;
+}
+
+
+.homepage {
+    box-sizing: border-box;
+    background-image: url(billeder/baggrundpic.jpeg);
+    width: 100%;
+    height: auto;
+}
+
 }

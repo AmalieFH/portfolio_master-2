@@ -101,6 +101,14 @@
   }
 
 
+.grid_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 15%;
+}
+
+@media (min-width:600px) {
+
 /*Grid til Mine projekter*/
 .grid_1{
     display: grid;
@@ -109,3 +117,4 @@
     margin: 10%;
 }
 
+}

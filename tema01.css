@@ -1,31 +1,9 @@
-/*Grid til INTRO*/  
-.grid_3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    margin: 10%;
-   }
 
-   .col_introvideo{
-    grid-column: 2;
-    grid-row: 1;
-   }
-
-   .col_tema01:hover {
+.col_tema01:hover {
       transform: scale(1.1);
       transition: 0.5s;
       padding: 2%;
   }
-
-
-.col_introvideo {
-    display: grid;
-    width: 100%;
-    height: 150px;
-    background-image: url(SVG/SVG/introvideo.svg);
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
 
 /*Bevægelse*/
 
@@ -35,6 +13,17 @@
     padding: 1%;
 }
 
+
+.col_introvideo {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-image: url(SVG/SVG/introvideo.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+      
+}
+
 .box_1{
     width: 300px;
     border: 1px solid black;
@@ -42,6 +31,48 @@
     background-color: #FFD881;
     padding: 10px;
     text-align: left;
-    margin-top: -21%;
+    margin-top: 5%;
     margin-left: 10%;
   }
+
+.grid_3 {
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin-left: 15%;
+}
+
+.col_introvideo {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+    
+
+@media (min-width:600px) {
+
+/*Grid til INTRO*/  
+.grid_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10%;
+    margin-top: -30%;
+   }
+
+
+.col_introvideo {
+    display: grid;
+    width: 100%;
+    height: 150px;
+    background-image: url(SVG/SVG/introvideo.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+      
+}
+
+.col_introvideo {
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+}
